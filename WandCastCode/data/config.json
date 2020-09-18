@@ -1,0 +1,6 @@
+{
+   "uuid" : "",
+   "hardware" : "ESP8266",
+   "sensor" : "wand",
+   "actuator" : ""
+}

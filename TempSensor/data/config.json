@@ -1,0 +1,9 @@
+{
+   "device": {
+      "uuid" : "",
+      "hardware" : "esp8266",
+      "sensor" : ["temperature", "humidity"],
+      "actuator" : [""]
+   },
+   "jwt" : ""
+}
