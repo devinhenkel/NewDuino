@@ -63,11 +63,11 @@ void loop()
 
 /*------------------HTML Page Creation---------------------*/
 
-  client.println("HTTP/1.1 200 OK"); // standalone web server with an ESP8266
-  client.println("Content-Type: text/html");
-  client.println("");
-  client.println("<!DOCTYPE HTML>");
-  client.println("<html>");
+  //client.println("HTTP/1.1 200 OK"); // standalone web server with an ESP8266
+  //client.println("Content-Type: text/html");
+  //client.println("");
+  //client.println("<!DOCTYPE HTML>");
+  //client.println("<html>");
 
   client.print("LED: ");
  
@@ -79,10 +79,10 @@ void loop()
   {
     client.print("OFF");
   }
-  client.println("<br><br>");
-  client.println("<a href=\"/LED=ON\"\"><button>ON</button></a>");
-  client.println("<a href=\"/LED=OFF\"\"><button>OFF</button></a><br />");
-  client.println("</html>");
+  //client.println("<br><br>");
+  //client.println("<a href=\"/LED=ON\"\"><button>ON</button></a>");
+  //client.println("<a href=\"/LED=OFF\"\"><button>OFF</button></a><br />");
+  //client.println("</html>");
 
   delay(1);
   Serial.println("Client disonnected");

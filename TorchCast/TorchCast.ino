@@ -243,7 +243,6 @@ void loop() {
       }
 
       http.end();
-      delay(500);
 
       http.end();
     }
