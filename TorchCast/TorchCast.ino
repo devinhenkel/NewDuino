@@ -219,7 +219,7 @@ void loop() {
       //http.begin("http://192.168.1.81:8080/function/graph2");  //Specify request destination
       //http.addHeader("Content-Type", "text/plain");  //Specify content-type header
       //int httpCode = http.POST("query { devices(where: { uuid: \""+configObj["device"]["uuid"].as<String>()+"\"}){ name location { name } known }}");   //Send the request
-      String serverName = "http://192.168.1.125/LED=";
+      String serverName = "http://192.168.1.27/LED=";
       Serial.println(isOn);
       
       if (isOn!=1) {
